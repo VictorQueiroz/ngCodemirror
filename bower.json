@@ -1,0 +1,24 @@
+{
+  "name": "ngCodemirror",
+  "version": "1.0.0",
+  "authors": [
+    "Victor Queiroz <victorcqueirozg@gmail.com>"
+  ],
+  "description": "Allows you to integrate AngularJS and Codemirror with compatibility for RequireJS 2.x.",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.23",
+    "angular-mocks": "~1.2.23",
+    "codemirror": "~4.5.0"
+  }
+}

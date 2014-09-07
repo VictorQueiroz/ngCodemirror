@@ -1,0 +1,30 @@
+{
+  "name": "ngCodemirror",
+  "version": "1.0.0",
+  "description": "Allows you to integrate AngularJS and Codemirror with compatibility for RequireJS 2.x.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VictorQueiroz/ngCodemirror.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VictorQueiroz/ngCodemirror/issues"
+  },
+  "homepage": "https://github.com/VictorQueiroz/ngCodemirror",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.4.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.1.4",
+    "gulp-uglify": "^1.0.1",
+    "karma": "^0.12.23",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
