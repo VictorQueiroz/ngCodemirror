@@ -1,6 +1,6 @@
 {
   "name": "ngCodemirror",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to integrate AngularJS and Codemirror with compatibility for RequireJS 2.x.",
   "main": "gulpfile.js",
   "scripts": {

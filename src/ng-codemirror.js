@@ -59,9 +59,14 @@ var $ngCodeMirror = function (CodeMirror) {
 							var value = instance.getValue();
 
 							if(ngModel.$viewValue !== value) {
-								scope.$apply(function () {
+								// Fix a message error when using readOnly mode.
+								if(!options.readOnly) {
+									scope.$apply(function () {
+										ngModel.$setViewValue(value);
+									});
+								} else {
 									ngModel.$setViewValue(value);
-								});
+								}
 							}
 						});
 					}
